@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Document with Fixed Width</title>
+    <title>Genesis</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
@@ -25,7 +25,7 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
       <!--nav bar section starts-->
       <nav class="navbar">
         <div class="logo-section">
@@ -48,6 +48,11 @@
             <li><a href="#">clients</a></li>
             <li><a href="#">contacts</a></li>
           </ul>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </nav>
       <!--nav bar section ends-->
@@ -415,7 +420,7 @@
 
       <!--contact section starts-->
       <div class="contact-section">
-        <h2>HAPPY&nbsp;<span>CLIENTS</span></h2>
+        <h2>CONTACT&nbsp;<span>US</span></h2>
         <p>We are back with&nbsp;<span>awesome</span>&nbsp;stuff!</p>
 
         <div class="contact-container">
@@ -478,19 +483,41 @@
               >
                 <i class="fab fa-instagram"></i>
               </a>
-              <a
-                href="https://www.linkedin.com"
-                target="_blank"
-                class="social-icon"
-              >
-                <i class="fab fa-linkedin-in"></i>
-              </a>
             </div>
           </div>
         </div>
       </div>
+      <div class="whatsapp-icon">
+        <a href="https://www.whatsapp.com" target="_blank" class="social-icon">
+          <i class="fab fa-whatsapp"></i> dsadsa
+        </a>
+      </div>
+
       <!--contact section ends-->
+
       <footer><p>Made By ACCT All Right Reserved Copyright © 2024</p></footer>
+      <!--popup menu starts-->
+      <!--popup menu starts-->
+      <div class="popup-menu" id="popup-menu">
+        <div class="popup-content">
+          <ul>
+            <li>
+              <a href="#" id="close-popup">
+                <i class="fas fa-times close-icon"></i>
+                <span class="home-text">Home</span>
+              </a>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--popup menu ends-->
     </div>
+    <script src="js/js.js"></script>
   </body>
 </html>
