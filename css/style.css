@@ -1679,6 +1679,10 @@ footer p {
         padding: 0;
         overflow-x: hidden; 
     }
+     .contact-section {
+        padding: 0px;
+    }
+
     .container {
         width: 100%!important;
     }
